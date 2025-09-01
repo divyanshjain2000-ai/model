@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the saved model
-model = pickle.load(open('linear_reg.sav', 'rb'))
+model = pickle.load(open('model.sav', 'rb'))
 
 st.title('Patient Outcome Prediction App')
 
