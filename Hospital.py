@@ -100,4 +100,5 @@ if st.button('Predict Outcome'):
         KEY_COMPLAINTS_CODE_other_nervous
     ]])
     prediction = model.predict(input_data)
-    st.success(f'Predicted Outcome: {prediction:.2f}')
+    st.success(f'Predicted Outcome: {float(prediction):.2f}')
+
